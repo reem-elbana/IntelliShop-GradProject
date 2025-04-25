@@ -31,7 +31,7 @@ const App = () => {
 
 
   const x = new QueryClient()
-  const router = createHashRouter([
+  const router = createBrowserRouter([
     {
       path: "",
       element: <Layout />,
